@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Rye);
+
 body {
 	background:rgb(65,185,179);
 	text-align: center;
@@ -5,7 +7,7 @@ body {
 
 p {
 	color:rgb(192,000,000);
-	font-family: castellar, sans-serif;
+	font-family: 'Rye', sans-serif;
 	font-size: 24px;
 	font-weight: 600;
 	font-style: normal;
