@@ -1,0 +1,86 @@
+body {
+	font-size: 18px
+	font-family: "Montype Corsiva", cursive;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+	border-bottom: 4px solid black;
+	display: inline-block;
+	font-weight: 800;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+	padding: .8em 0;
+	color: #fffebb;
+	border-bottom-color: #fffebb;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	width: 480px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	font-size:  1.8em;
+float: left;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	margin: 1.8em;
+	display: inline-block;
+}
+
+<del>
+section {
+	background: #222:
+	color: #fff;
+	overflow: auto;
+}
+
+div {
+	font-size: 1.2em;
+	width 31%;
+	padding: 3%;
+	display: inline-block;
+}
+</del>
+
+#travelpic {
+	display: block;
+	width: 100%;
+	margin: 0:
+	bakground: #fffebb;
+}
+
+#ABOUT {
+	float: left;
+}
+
+#SERVICES {
+	float: left;
+}
+
+#GROUP TRAVEL {
+	float: left;
+}
+
+footer{
+text-align: center;
+padding 1em 0;
+clear: both;
+}

@@ -1,0 +1,58 @@
+body {
+	font-family: cursive;
+	font-size: 18px
+	background-color: mediumaqua;
+}
+
+nav {
+	display: inline;
+	font-size: 1.2em;
+}
+
+nav a {
+	text-decoration: none;
+	color: green;
+	background-color: aqua;
+	margin: 1.8em;
+}
+
+nav:hover {
+	background-color: yellow;
+}
+
+h1 {
+	font-size: 2em
+	text-align: left;
+}
+
+
+h2 {
+	font-size: 1.5em;
+	padding: .8em 0;
+	color: aqua;
+	}
+
+	img {
+	display: block;
+	margin: 0 auto;
+	width: 800px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.about, .services, .grouptravel {
+	width: 300px;
+	float: left;
+	matgin: 10px;
+	background-color: blue;
+}
+
+footer {
+	text-align: center;
+	padding 1em 0;
+	clear: both;
+}
