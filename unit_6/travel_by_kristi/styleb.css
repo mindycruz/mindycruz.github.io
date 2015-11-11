@@ -121,6 +121,13 @@ ul {
 	padding-right: 15px;
 }
 
+@media only screen and (max-width: 480px) {
+	.about, .services, .grouptravel {
+		float: none;
+		width: auto;
+	}
+}
+
 footer {
 	text-align: left;
 	padding 1em 0;
