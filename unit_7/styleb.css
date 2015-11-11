@@ -1,0 +1,135 @@
+#body {
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
+	max-height: 100%;
+	min-width: 100%;
+	max-width: 100%;
+}
+
+body {
+	background-color: rgb(97,187,178);
+	font-family: 'Engravers MT', 'Poor Richard', sans-serif;
+	font-size: 18px;
+}
+
+.header h1, h2 {
+	display: inline-block;
+}
+
+.header h2 {
+	float:right;
+}
+
+nav {
+	display: inline;
+	background-color: rgb(92,172,164);
+	background-size: 100%;
+	float: left;
+	font-size: 1.1em;
+	width: 100%;
+}
+
+nav a {
+	font-family: 'Engravers MT', sans-serif;
+	text-decoration: none;
+	color: white;
+	margin: 1.1em;
+}
+
+nav a:hover {
+	color: rgb(9,142,145);
+}
+
+h1 {
+	font-family: 'Engravers MT', sans-serif;
+	font-size: 3em;
+	text-align: left;
+}
+
+h1 a {
+	text-decoration: none;
+	color: black;
+}
+
+
+h2 {
+	font-family: 'Poor Richard', sans-serif;
+	font-size: 2em;
+	padding: 2px;
+	color: black;
+	}
+
+	.travelpic {
+		height: 700px;
+	}
+
+.travelpic img {
+	width: 100%;
+	max-height: 100%;
+	margin:  auto;
+	display: block;
+}
+
+#section {
+	height: 300px;
+}
+
+#section {
+	width: 100%;
+	max-height: 100%;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.about, .services, .grouptravel {
+	font-family: 'Poor Richard', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	width: 27%;
+	padding: 5px;
+	margin: 2.5%;
+	float: left;
+	background-color: rgb(132,152,152);
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgb(100,118,118);
+}
+
+.about p, .services ul, .grouptravel ul {
+	margin-bottom: 30px;
+}
+
+.about a, .services a, .grouptravel a {
+	text-decoration: none;
+	color: black;
+}
+
+.aboutmepage, .servicespage, .grouptravelpage {
+	display: block;
+	padding: 30px;
+	margin: 30px;
+	clear: both;
+}
+
+.aboutmepage img {
+	float:left;
+	padding-right: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+	.about, .services, .grouptravel {
+		float: none;
+		width: auto;
+	}
+}
+
+footer {
+	text-align: left;
+	padding 1em 0;
+	clear: both;
+}
