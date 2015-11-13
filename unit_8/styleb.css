@@ -129,14 +129,6 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
-		body {
-		font-family:'Copperplate', 'BondoniSvtyTwoITCTT-Book', sans-serif;
-	}
-
-	h1, nav a, .header h2 {
-		font-family: 'Copperplate', sans-serif;        
-	}
-
 	nav a {
 		display: block;
 		float: left;
@@ -152,21 +144,13 @@ footer {
 		font-family: 'BondoniSvtyTwoITCTT-Book', sans-serif;
 		display: block;
 		float: left;
-		width: 100%;
+		width: auto;
 		margin: auto;
 	}
 }
 
 
 @media only screen and (min-width: 500px) and (max-width: 800px) {
-	body {
-		font-family:'Copperplate', 'BondoniSvtyTwoITCTT-Book', sans-serif;
-	}
-
-	h1, nav a, .header h2 {
-			font-family: 'Copperplate', sans-serif;        
-	}
-
 	nav a {
 		display: block;
 		float: left;
@@ -174,9 +158,8 @@ footer {
 	}
 
 	.about, .services, .grouptravel {
-		font-family: 'BondoniSvtyTwoITCTT-Book', sans-serif;
 		display: block;
 		float: left;
-		width: 100%;
+		width: auto;
 	}
 }
