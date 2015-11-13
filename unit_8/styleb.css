@@ -88,20 +88,21 @@ ul {
 
 .about, .services, .grouptravel {
 	font-family: 'Poor Richard', sans-serif;
-	font-size: .5em;
+	font-size: 1em;
 	text-align: center;
 	width: 30%;
 	padding: 0;
 	margin: 0;
 	float: left;
 	background-color: rgb(132,152,152);
-	border-width: .2em;
+	border-width: .8em;
 	border-style: solid;
 	border-color: rgb(100,118,118);
 }
 
 .about p, .services ul, .grouptravel ul {
 	margin-bottom: 1em;
+	padding: auto;
 }
 
 .about a, .services a, .grouptravel a {
