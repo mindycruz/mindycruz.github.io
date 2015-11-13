@@ -90,12 +90,12 @@ ul {
 	font-family: 'Poor Richard', sans-serif;
 	font-size: 1.1em;
 	text-align: center;
-	width: 30%;
+	width: 29%;
 	padding: auto;
 	margin: 0;
 	float: left;
 	background-color: rgb(132,152,152);
-	border-width: 1em;
+	border-width: .8em;
 	border-style: solid;
 	border-color: rgb(100,118,118);
 }
@@ -150,7 +150,8 @@ footer {
 
 	.about, .services, .grouptravel {
 		font-family: 'BondoniSvtyTwoITCTT-Book', sans-serif;
-		float: none;
+		display: block;
+		float: left;
 		width: 100%;
 		margin: auto;
 	}
@@ -170,10 +171,6 @@ footer {
 		display: block;
 		float: left;
 		width: 100%;
-	}
-
-	br {
-		display: none;
 	}
 
 	.about, .services, .grouptravel {
