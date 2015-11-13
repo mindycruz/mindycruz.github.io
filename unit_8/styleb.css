@@ -91,11 +91,12 @@ ul {
 	font-size: 1.1em;
 	text-align: center;
 	width: 29%;
+	height:30%;
 	padding: auto;
-	margin: 0;
+	margin: .5em;
 	float: left;
 	background-color: rgb(132,152,152);
-	border-width: .8em;
+	border-width: .5em;
 	border-style: solid;
 	border-color: rgb(100,118,118);
 }
@@ -141,11 +142,9 @@ footer {
 
 
 	.about, .services, .grouptravel {
-		font-family: 'BondoniSvtyTwoITCTT-Book', sans-serif;
 		display: block;
 		float: left;
-		width: auto;
-		margin: auto;
+		width: 90%;
 	}
 }
 
@@ -160,6 +159,6 @@ footer {
 	.about, .services, .grouptravel {
 		display: block;
 		float: left;
-		width: auto;
+		width: 90%;
 	}
 }
