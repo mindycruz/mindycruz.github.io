@@ -90,9 +90,9 @@ ul {
 	font-family: 'Poor Richard', sans-serif;
 	font-size: .5em;
 	text-align: center;
-	width: 27%;
-	padding: 1em;
-	margin: 2.5%;
+	width: 30%;
+	padding: 0;
+	margin: 0;
 	float: left;
 	background-color: rgb(132,152,152);
 	border-width: .2em;
@@ -130,6 +130,7 @@ footer {
 @media only screen and (max-width: 500px) {
 		body {
 		font-family:'Copperplate', 'BondoniSvtyTwoITCTT-Book', sans-serif;
+	}
 
 	h1, nav a, .header h2 {
 		font-family: 'Copperplate', sans-serif;        
@@ -140,9 +141,9 @@ footer {
 	}
 
 	nav a {
-		display: inline-block;
+		display: block;
 		float: left;
-		width: auto;
+		width: 100%;
 	}
 
 	.about, .services, .grouptravel {
@@ -164,14 +165,19 @@ footer {
 	}
 
 	nav a {
-		display: inline-block;
+		display: block;
 		float: left;
-		width: auto;
+		width: 100%;
+	}
+
+	br {
+		display: none;
 	}
 
 	.about, .services, .grouptravel {
 		font-family: 'BondoniSvtyTwoITCTT-Book', sans-serif;
-		float: none;
+		display: block;
+		float: left;
 		width: 100%;
 	}
 }
