@@ -136,8 +136,8 @@ footer {
 		width: 100%;
 	}
 
-	br {
-		display: none;
+	img {
+		height: auto;
 	}
 
 
@@ -154,6 +154,10 @@ footer {
 		display: block;
 		float: left;
 		width: 100%;
+	}
+
+	img {
+		height: auto;
 	}
 
 	.about, .services, .grouptravel {
